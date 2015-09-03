@@ -1,6 +1,24 @@
 nav div{
 	display:inline-block;
 }
-nav{
-	text-align:center;
+
+.center{
+	text-align: center;
+}
+.max-width{
+	max-width:960px;
+}
+.padding20{
+	padding:20px;
+}
+.bigimage{
+	max-width:50vw;
+	max-height:50vw;
+}
+.image-gallery{
+	display:inline;
+}
+.image-gallery img{
+	max-height: 200px;
+	max-width: 200px;
 }
