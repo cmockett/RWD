@@ -1,5 +1,10 @@
+/*@media screen and (max-width:960px){
+
+}*/
+
 nav div{
 	display:inline-block;
+	font-size: 30px
 }
 
 .center{
@@ -21,4 +26,7 @@ nav div{
 .image-gallery img{
 	max-height: 200px;
 	max-width: 200px;
+}
+.body-color{
+	background-color: skyblue
 }
