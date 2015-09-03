@@ -1,12 +1,19 @@
-/*@media screen and (max-width:960px){
 
-}*/
 
 nav div{
 	display:inline-block;
-	font-size: 30px
+	font-size: 30px;
+	margin:.5vw;
+	background-color: dodgerblue;
 }
 
+nav div a{
+	text-decoration:none;
+	color:lawngreen;
+}
+nav div a:hover{
+	color: red;
+}
 .center{
 	text-align: center;
 }
@@ -19,14 +26,30 @@ nav div{
 .bigimage{
 	max-width:50vw;
 	max-height:50vw;
+	float:left;
 }
+/*.bigimagediv{
+	height:100px;
+	width:100px;
+}*/
 .image-gallery{
 	display:inline;
 }
 .image-gallery img{
-	max-height: 200px;
-	max-width: 200px;
+	max-width: 20vw;
 }
 .body-color{
 	background-color: skyblue
+}
+@media screen and (max-width:710px){
+	nav div{
+		display:block;
+	}
+}
+@media screen and (max-width:600px){
+	.image-gallery img{
+		display:block;
+		max-width:80vw;
+		margin:auto;
+	}
 }
